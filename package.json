@@ -1,0 +1,38 @@
+{
+  "name": "@wildpeaks/react-render-worker",
+  "version": "2.1.0",
+  "description": "Renders a React component in the DOM, using a Web Worker",
+  "main": "src/render.js",
+  "files": [
+    "src/render.js",
+    "test/render.tests.js"
+  ],
+  "scripts": {
+    "test": "mocha -r jsdom-global/register test/*.js"
+  },
+  "repository": "https://github.com/wildpeaks/package-react-render-worker",
+  "keywords": [
+    "wildpeaks",
+    "react",
+    "render"
+  ],
+  "author": "Cecile Muller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildpeaks/package-react-render-worker/issues"
+  },
+  "homepage": "https://github.com/wildpeaks/package-react-render-worker#readme",
+  "peerDependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "@wildpeaks/snapshot-dom": "latest",
+    "jsdom": "^9.8.3",
+    "jsdom-global": "^2.1.0",
+    "mocha": "^3.2.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sinon": "^1.17.6"
+  }
+}
